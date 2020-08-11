@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { NumToArrPipe } from './num-to-arr.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NumToArrPipe
   ],
   imports: [
     BrowserModule
